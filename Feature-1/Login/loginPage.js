@@ -40,7 +40,7 @@ function validateLogin(user, pass) {
     console.log(validUser);
     if (validUser) {
         const role = validUser.role;
-        if(role === 'Admin') {
+        if(role === 'admin') {
             window.location.href = '../dashboard/adminDashboard.html';
         }
         else{
