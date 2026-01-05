@@ -1,0 +1,55 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .navbar {
+      background: rgb(47, 255, 144);
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .navlinks a {
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .navlinks a:hover {
+      color: #ffdd57;
+    }
+
+    #profile-card {
+      background: #fff;
+      max-width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+
+    #profile-card h2 {
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    #profile-card p {
+      margin: 8px 0;
+      color: #555;
+    }
+    #logout {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: rgb(47, 255, 144);
+      color: black;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+    }

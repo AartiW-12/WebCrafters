@@ -1,0 +1,26 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+}
+h1{
+        text-align: center;
+        margin-top: 50px;
+        color: #333;
+}
+.div{
+        text-align: center;
+        margin-top: 50px;
+}
+a{
+        text-decoration: none;
+        margin: 20px;
+        font-size: 20px;
+        color: rgb(22, 29, 149);
+        text-align: center;
+}

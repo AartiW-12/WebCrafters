@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  
+}
+.navbar {
+      background: rgb(47, 255, 144);
+      padding: 15px;
+      display: flex;
+      justify-content: end;
+      gap: 20px;
+      align-items: center;
+    }
+
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+    .navlinks a {
+      color: black;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .navlinks a:hover {
+      color: #ffdd57;
+    }
+
+    .content {
+      padding: 40px;
+      text-align: center;
+    }
+    .WebCrafters-heading {
+        text-align: center;
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #333;
+      margin-top: 10px;
+    }

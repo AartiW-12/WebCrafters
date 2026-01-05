@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart List — Search Only</title>
+    <link rel="stylesheet" href="style2.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Smart List</h1>
+    </header>
+    <main>
+        <section class="controls">
+            <div class="control-group">
+                <label for="searchInput">Search</label>
+                <input id="searchInput" type="text" placeholder="Type to search" />
+            </div>
+            <label for="sortField">Sort By:</label>
+            <select id="sortField">
+                <option value="name">Title</option>
+            </select>
+
+            <button id="sortOrderBtn">Order: Asc </button>
+
+            <button id="ClearBtn">Clear</button>
+
+        </section>
+        <ul id="list" class="list"></ul>
+        <div id="empty" class="empty hidden"></div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
